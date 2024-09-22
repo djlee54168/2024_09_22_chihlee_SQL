@@ -14,3 +14,7 @@ djlee54168_user:
 22gJBpbdHc6riR7HEL3ZpPn0YgIJy8ib
 @dpg-crnssso8fa8c738kfee0-a.singapore-postgres.render.com/
 djlee54168
+
+網址：piRobert0301.local
+帳號：a09
+密碼：raspberry
