@@ -10,3 +10,12 @@ CREATE TABLE IF NOT EXISTS stations(
 );
 
 SELECT * FROM stations;
+
+ALTER TABLE stations
+ALTER COLUMN name
+TYPE VARCHAR(15);
+
+ALTER TABLE stations
+DROP CONSTRAINT e_name; /* error */
+
+
