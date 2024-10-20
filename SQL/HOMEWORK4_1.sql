@@ -100,7 +100,7 @@ WHERE gateincomingcnt=(
 );
 
 /* 各站點進站人數最多的一筆 */
-SELECT stationname as 站別, date as 日期, gateincomingcnt as 進站人數
+SELECT stationname as 站別, in_out.date as 日期, gateincomingcnt as 進站人數
 FROM stations s 
     JOIN (
         SELECT staCode,MAX(gateincomingcnt) as 進站最多人數
@@ -108,6 +108,10 @@ FROM stations s
         GROUP BY staCode ) in_out
 	ON s.stationcode = in_out.staCode
 ;
+
+SELECT staCode,MAX(gateincomingcnt) as 進站最多人數
+        FROM station_in_out
+        GROUP BY staCode;
 
 SELECT stationname as 站名, max(gateincomingcnt) as 進站最多人數
 FROM stations s JOIN station_in_out in_out on in_out.stacode=s.stationcode
