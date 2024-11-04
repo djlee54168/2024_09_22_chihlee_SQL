@@ -1,0 +1,9 @@
+HOST=dpg-cseslqrtq21c738gheu0-a.singapore-postgres.render.com
+DATABASE=test54168
+USER=djlee54168
+PASSWORD=8j8ccNiLu0xWDO6eD0xjuCmxyK21vCkJ
+
+HOST=192.168.0.252
+DATABASE=mydatabase_a09
+USER=a09
+PASSWORD=raspberry
