@@ -7,17 +7,17 @@ load_dotenv()
 
 @st.cache_data
 def getData(country:tuple[str])->list[tuple]:
-    conn = psycopg2.connect(host=os.environ['POSTGRE_HOST'],
-                            database=os.environ['POSTGRE_DATABASE'],
-                            user=os.environ['POSTGRE_USER'],
-                            password=os.environ['POSTGRE_PASSWORD'])
+    conn = psycopg2.connect(host=os.environ     ['POSTGRE_HOST'],
+                            database=os.environ ['POSTGRE_DATABASE'],
+                            user=os.environ     ['POSTGRE_USER'],
+                            password=os.environ ['POSTGRE_PASSWORD'])
     with conn:
         with conn.cursor() as cursor:
-            sql = '''
-            SELECT country,市場.name,date,adj_close,volume
-            FROM 股市 JOIN 市場 ON 股市.name = 市場.name
-            WHERE country IN %s;
-            '''
+            sql =   '''
+                    SELECT country,市場.name,date,adj_close,volume
+                    FROM 股市 JOIN 市場 ON 股市.name = 市場.name
+                    WHERE country IN %s;
+                    '''
             cursor.execute(sql,(country,))
             all_data = cursor.fetchall()
     conn.close()
@@ -26,15 +26,15 @@ def getData(country:tuple[str])->list[tuple]:
 
 @st.cache_resource
 def get_country():
-    conn = psycopg2.connect(host=os.environ['POSTGRE_HOST'],
-                            database=os.environ['POSTGRE_DATABASE'],
-                            user=os.environ['POSTGRE_USER'],
-                            password=os.environ['POSTGRE_PASSWORD'])
+    conn = psycopg2.connect(host=os.environ     ['POSTGRE_HOST'],
+                            database=os.environ ['POSTGRE_DATABASE'],
+                            user=os.environ     ['POSTGRE_USER'],
+                            password=os.environ ['POSTGRE_PASSWORD'])
     with conn:
         with conn.cursor() as cursor:
-            sql = '''
-            SELECT * FROM 市場
-            '''
+            sql =   '''
+                    SELECT * FROM 市場
+                    '''
             cursor.execute(sql)
             all_country = cursor.fetchall()
     conn.close()
