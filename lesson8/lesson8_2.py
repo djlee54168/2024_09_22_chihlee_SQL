@@ -33,7 +33,7 @@ def get_country():
     with conn:
         with conn.cursor() as cursor:
             sql =   '''
-                    SELECT * FROM 市場
+                    SELECT * FROM 市場;
                     '''
             cursor.execute(sql)
             all_country = cursor.fetchall()
