@@ -10,9 +10,9 @@ conn = psycopg2.connect(host     = os.environ['HOST'],
                         password = os.environ['PASSWORD'])
 with conn:
     with conn.cursor() as cursor:
-        sql = '''
-        SELECT * FROM 市場
-        '''
+        sql =   '''
+                SELECT * FROM 市場
+                '''
         cursor.execute(sql)
         all_country = cursor.fetchall()
 conn.close()

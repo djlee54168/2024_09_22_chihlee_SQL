@@ -1,0 +1,24 @@
+[2024-11-08 23:09:17.776647800 +08:00 INFO] [login] personal_id="A121714564"
+[2024-11-08 23:09:17.853402500 +08:00 INFO] this account require 2fa
+[2024-11-08 23:09:18.018192100 +08:00 INFO] [future_option_mapping]: 116.6936ms
+[2024-11-08 23:09:18.077783100 +08:00 INFO] [future_option_mapping]: 54.2976ms
+[2024-11-08 23:09:18.258084800 +08:00 INFO] [future_option_mapping]: 179.2937ms
+[2024-11-08 23:09:18.338279500 +08:00 INFO] [future_option_mapping]: 67.4841ms
+[2024-11-08 23:09:36.119601700 +08:00 INFO] [login] personal_id="A12171456"
+[2024-11-08 23:09:46.985702700 +08:00 INFO] [login] personal_id="A121714564"
+[2024-11-08 23:09:47.047679800 +08:00 INFO] this account require 2fa
+[2024-11-08 23:09:47.243919900 +08:00 INFO] [future_option_mapping]: 132.1263ms
+[2024-11-08 23:09:47.300776300 +08:00 INFO] [future_option_mapping]: 53.69ms
+[2024-11-08 23:09:47.611207900 +08:00 INFO] [future_option_mapping]: 310.1001ms
+[2024-11-08 23:09:47.675370500 +08:00 INFO] [future_option_mapping]: 51.35ms
+[2024-11-08 23:38:04.399275300 +08:00 INFO] [get_order_results] account=Account { branch_no: "20505", account: "37089", account_type: "stock", name: "李定洲" }
+[2024-11-08 23:38:04.471330900 +08:00 INFO] [order_result]: 71.9474ms
+[2024-11-08 23:42:15.226854400 +08:00 INFO] [get_order_results] account=Account { branch_no: "20505", account: "37089", account_type: "stock", name: "李定洲" }
+[2024-11-08 23:42:15.289111300 +08:00 INFO] [order_result]: 62.1997ms
+[2024-11-08 23:46:11.630812200 +08:00 INFO] [unrealized gains and loses] account=Account { branch_no: "20505", account: "37089", account_type: "stock", name: "李定洲" }
+[2024-11-08 23:46:11.736392900 +08:00 INFO] [inventory_stock_detail_result]: 105.5217ms
+[2024-11-08 23:47:15.942472500 +08:00 INFO] [daytrade_and_stock_info]: 104.3672ms
+[2024-11-08 23:47:15.942542400 +08:00 INFO] [realized gains and loses] account=Account { branch_no: "20505", account: "37089", account_type: "stock", name: "李定洲" }
+[2024-11-08 23:47:16.021798800 +08:00 INFO] [inventory_stock_detail_result]: 79.1244ms
+[2024-11-08 23:48:02.044225600 +08:00 INFO] [bank remain] account=Account { branch_no: "20505", account: "37089", account_type: "stock", name: "李定洲" }
+[2024-11-08 23:48:03.442059100 +08:00 INFO] [bank remain]: 1.3976797s

@@ -1,0 +1,6 @@
+[2024-11-10 08:50:49.730501800 +08:00 INFO] [login] personal_id="A121714564"
+[2024-11-10 08:50:49.785995800 +08:00 INFO] this account require 2fa
+[2024-11-10 08:50:49.851774400 +08:00 INFO] [future_option_mapping]: 30.4509ms
+[2024-11-10 08:50:49.877314500 +08:00 INFO] [future_option_mapping]: 21.7991ms
+[2024-11-10 08:50:49.949463600 +08:00 INFO] [future_option_mapping]: 71.7812ms
+[2024-11-10 08:50:50.003749900 +08:00 INFO] [future_option_mapping]: 22.7228ms
