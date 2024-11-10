@@ -7,3 +7,13 @@ HOST=192.168.0.252
 DATABASE=mydatabase_a09
 USER=a09
 PASSWORD=raspberry
+
+postgresql://djlee54168:
+            8j8ccNiLu0xWDO6eD0xjuCmxyK21vCkJ
+            @dpg-cseslqrtq21c738gheu0-a
+            /test54168
+
+postgresql://djlee54168:
+            8j8ccNiLu0xWDO6eD0xjuCmxyK21vCkJ
+            @dpg-cseslqrtq21c738gheu0-a.singapore-postgres.render.com
+            /test54168
