@@ -1,0 +1,30 @@
+[2024-11-16 16:54:54.525715700 +08:00 INFO] [login] personal_id="A121714564"
+[2024-11-16 16:54:54.613387800 +08:00 INFO] this account require 2fa
+[2024-11-16 16:54:54.835462500 +08:00 INFO] [future_option_mapping]: 145.7482ms
+[2024-11-16 16:54:54.876966400 +08:00 INFO] [future_option_mapping]: 35.7667ms
+[2024-11-16 16:54:55.061067300 +08:00 INFO] [future_option_mapping]: 183.7476ms
+[2024-11-16 16:54:55.161215600 +08:00 INFO] [future_option_mapping]: 87.4263ms
+[2024-11-16 17:06:12.464429100 +08:00 INFO] [login] personal_id="A121714564"
+[2024-11-16 17:06:12.573452 +08:00 INFO] this account require 2fa
+[2024-11-16 17:06:12.766185 +08:00 INFO] [future_option_mapping]: 147.346ms
+[2024-11-16 17:06:12.804065800 +08:00 INFO] [future_option_mapping]: 33.8804ms
+[2024-11-16 17:06:13.190400200 +08:00 INFO] [future_option_mapping]: 278.3645ms
+[2024-11-16 17:06:13.259297800 +08:00 INFO] [future_option_mapping]: 57.8088ms
+[2024-11-16 20:40:15.864282100 +08:00 INFO] [login] personal_id="A121714564"
+[2024-11-16 20:40:17.259351300 +08:00 INFO] this account require 2fa
+[2024-11-16 20:40:17.473353800 +08:00 INFO] [future_option_mapping]: 150.911ms
+[2024-11-16 20:40:17.527354400 +08:00 INFO] [future_option_mapping]: 41.2837ms
+[2024-11-16 20:40:17.743315800 +08:00 INFO] [future_option_mapping]: 214.4973ms
+[2024-11-16 20:40:17.806670100 +08:00 INFO] [future_option_mapping]: 49.9328ms
+[2024-11-16 20:50:34.335663200 +08:00 INFO] [login] personal_id="A121714564"
+[2024-11-16 20:50:34.404090800 +08:00 INFO] this account require 2fa
+[2024-11-16 20:50:34.575022800 +08:00 INFO] [future_option_mapping]: 123.9688ms
+[2024-11-16 20:50:34.650921700 +08:00 INFO] [future_option_mapping]: 72.7164ms
+[2024-11-16 20:50:34.910652200 +08:00 INFO] [future_option_mapping]: 259.2539ms
+[2024-11-16 20:50:34.982501500 +08:00 INFO] [future_option_mapping]: 54.8004ms
+[2024-11-16 20:54:31.937856800 +08:00 INFO] [login] personal_id="A121714564"
+[2024-11-16 20:54:32.017153 +08:00 INFO] this account require 2fa
+[2024-11-16 20:54:32.204097200 +08:00 INFO] [future_option_mapping]: 144.061ms
+[2024-11-16 20:54:32.249466100 +08:00 INFO] [future_option_mapping]: 43.2119ms
+[2024-11-16 20:54:32.481284400 +08:00 INFO] [future_option_mapping]: 231.5815ms
+[2024-11-16 20:54:32.548615300 +08:00 INFO] [future_option_mapping]: 54.5254ms

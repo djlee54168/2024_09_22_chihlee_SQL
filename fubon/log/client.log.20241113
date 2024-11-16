@@ -1,0 +1,21 @@
+[2024-11-13 22:07:42.249695300 +08:00 INFO] [login] personal_id="A121714564"
+[2024-11-13 22:07:42.333064 +08:00 INFO] this account require 2fa
+[2024-11-13 22:07:42.522692600 +08:00 INFO] [future_option_mapping]: 143.1978ms
+[2024-11-13 22:07:42.567407600 +08:00 INFO] [future_option_mapping]: 39.3138ms
+[2024-11-13 22:07:42.857812400 +08:00 INFO] [future_option_mapping]: 290.0918ms
+[2024-11-13 22:07:42.941585700 +08:00 INFO] [future_option_mapping]: 71.0883ms
+[2024-11-13 22:36:54.292856800 +08:00 INFO] [place_order] account=Account { branch_no: "20505", account: "37089", account_type: "stock", name: "李定洲" },order=Order { oxtp: NewOrder, market_type: Common, sess: None, date: None, buy_sell: Buy, stock_no: "1301", price_type: Reference, price: None, quantity: 1000, time_in_force: ROD, order_type: Stock, user_def: None }, is_async=false
+[2024-11-13 22:37:36.499292300 +08:00 INFO] [get_order_results] account=Account { branch_no: "20505", account: "37089", account_type: "stock", name: "李定洲" }
+[2024-11-13 22:37:36.552981 +08:00 INFO] [order_result]: 53.6165ms
+[2024-11-13 22:43:53.256748400 +08:00 INFO] [get_order_results] account=Account { branch_no: "20505", account: "37089", account_type: "stock", name: "李定洲" }
+[2024-11-13 22:43:53.331036600 +08:00 INFO] [order_result]: 74.1912ms
+[2024-11-13 22:49:12.527804800 +08:00 INFO] [order_history] account=Account { branch_no: "20505", account: "37089", account_type: "stock", name: "李定洲" }, date=20240313, date1=Some("20240313")
+[2024-11-13 22:49:22.930598700 +08:00 INFO] [filled] account=Account { branch_no: "20505", account: "37089", account_type: "stock", name: "李定洲" }, date=Some("20240313"), date1=Some("20240313")
+[2024-11-13 22:52:06.523390400 +08:00 INFO] [batch order list] account=Account { branch_no: "20505", account: "37089", account_type: "stock", name: "李定洲" }
+[2024-11-13 22:52:06.579818600 +08:00 INFO] [batch_order_list]: 56.3583ms
+[2024-11-13 22:52:24.320507400 +08:00 INFO] [batch order list] account=Account { branch_no: "20505", account: "37089", account_type: "stock", name: "李定洲" }
+[2024-11-13 22:52:24.423978700 +08:00 INFO] [batch_order_list]: 103.3787ms
+[2024-11-13 22:56:12.985497800 +08:00 INFO] [get inventories] account=Account { branch_no: "20505", account: "37089", account_type: "stock", name: "李定洲" }
+[2024-11-13 22:56:13.057337800 +08:00 INFO] [inventory_result]: 71.7745ms
+[2024-11-13 23:00:01.654231400 +08:00 INFO] [unrealized gains and loses] account=Account { branch_no: "20505", account: "37089", account_type: "stock", name: "李定洲" }
+[2024-11-13 23:00:01.755120200 +08:00 INFO] [inventory_stock_detail_result]: 100.8292ms
