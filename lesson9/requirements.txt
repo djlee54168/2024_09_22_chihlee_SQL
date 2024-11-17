@@ -1,0 +1,7 @@
+streamlit
+python-dotenv==1.01
+psycopg2-binary
+pandas
+pandas-datareader
+Pyarrow
+yfinance
